@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:weightSum="3"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/butonOgrendiklerim"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="#cd88af"
+            android:text="Öğrendiğim\nKelimeler"
+            android:textColor="#ffffff"
+            app:srcCompat="@mipmap/ic_launcher_round"
+            tools:layout_editor_absoluteX="107dp"
+            tools:layout_editor_absoluteY="129dp" />
+
+        <Button
+            android:id="@+id/butonTurkce"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="#2d882d"
+            android:text="Türkçe Bul"
+            android:textColor="#ffffff"
+            app:srcCompat="@mipmap/ic_launcher_round"
+            tools:layout_editor_absoluteX="208dp"
+            tools:layout_editor_absoluteY="129dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/butonENG"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="#882d61"
+            android:text="İngilizce Bul"
+            android:textColor="#ffffff"
+            app:srcCompat="@mipmap/ic_launcher_round"
+            tools:layout_editor_absoluteX="108dp"
+            tools:layout_editor_absoluteY="218dp" />
+
+        <Button
+            android:id="@+id/butonENGES"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="#7f9b35"
+            android:text="Eş Anlam"
+            android:textColor="#ffffff"
+            app:srcCompat="@mipmap/ic_launcher_round"
+            tools:layout_editor_absoluteX="208dp"
+            tools:layout_editor_absoluteY="221dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/butonENGZIT"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="#661141"
+            android:text="Zıt Anlam"
+            android:textColor="#ffffff"
+            app:srcCompat="@mipmap/ic_launcher_round"
+            tools:layout_editor_absoluteX="108dp"
+            tools:layout_editor_absoluteY="306dp" />
+
+        <Button
+            android:id="@+id/butonKelime"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="#a5c663"
+            android:text="Kelime Oyunu"
+            android:textColor="#ffffff"
+            app:srcCompat="@mipmap/ic_launcher_round"
+            tools:layout_editor_absoluteX="208dp"
+            tools:layout_editor_absoluteY="306dp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/kelimeGruplari"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_weight="1"
+        android:background="#cd88af"
+        android:cropToPadding="false"
+        android:text="@string/kelimegruplari"
+        android:textColor="#ffffff"
+        android:typeface="sans"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <Button
+        android:id="@+id/kelimeListesi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="30dp"
+        android:text="@string/kelimelistesi"
+        android:textColor="#ffffff"
+        android:layout_marginStart="30dp"
+        android:layout_weight="1"
+        android:background="#882d61"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <Button
+        android:id="@+id/alistirmalar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/alistirmalar"
+        android:textColor="#ffffff"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_weight="1"
+        android:background="#661141"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="204dp" />
+
+    <Button
+        android:id="@+id/kelimeEkle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_weight="1"
+        android:text="@string/kelimeekle"
+        android:textColor="#ffffff"
+        android:background="#2d882d"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="204dp" />
+
+    <Button
+        android:id="@+id/favorilerim"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:text="@string/favorilerim"
+        android:textColor="#ffffff"
+        android:layout_weight="1"
+        android:background="#7f9b35"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="204dp" />
+
+    <Button
+        android:id="@+id/hakkimizda"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_weight="1"
+        android:text="@string/hakkimizda"
+        android:textColor="#ffffff"
+        android:background="#a5c663"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="322dp" />
+</LinearLayout>
+
+

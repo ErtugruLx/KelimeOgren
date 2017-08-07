@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.secil.yds">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".app.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".activity.KelimeGruplari"
+            android:label="Kelime Grupları"></activity>
+
+        <activity android:name=".activity.Kelimeler"
+            android:label="Kelime Listesi"></activity>
+
+        <activity android:name=".activity.KelimeDetay"
+            android:label="Kelime Detay"></activity>
+
+        <activity android:name=".activity.KelimeEkle"
+            android:label="Kelime Ekle"></activity>
+
+        <activity android:name=".activity.KelimeListesi"
+            android:label="Kelime Listesi"></activity>
+
+        <activity android:name="com.secil.yds.activity.Hakkimizda"
+            android:label="Hakkımızda" />
+
+        <activity android:name="com.secil.yds.activity.Alistirmalar"
+            android:label="Alıştırmalar" />
+
+        <activity android:name="com.secil.yds.activity.Ogrendiklerim"
+            android:label="Öğrendiğim Kelimeler" />
+
+        <activity android:name=".activity.KelimeOyunu"
+            android:label="Kelime Oyunu"></activity>
+
+        <activity android:name=".activity.TurkceBul"
+            android:label="Türkçe Bul"></activity>
+
+        <activity android:name=".activity.EngBul"
+            android:label="İngilizce Bul"></activity>
+
+        <activity android:name=".activity.EsAnlam"
+            android:label="Eş Anlam Bul"></activity>
+        <activity android:name=".activity.ZitAnlam"
+            android:label="Zıt Anlam Bul"></activity>
+
+        <activity android:name=".activity.Favorilerim"
+            android:label="Favorilerim"></activity>
+
+    </application>
+
+</manifest>

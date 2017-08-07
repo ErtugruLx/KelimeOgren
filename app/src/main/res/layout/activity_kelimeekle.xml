@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp">
+
+    <LinearLayout
+        android:id="@+id/linearENG"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:background="#ecb7b7"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:text="İngilizce:"/>
+
+        <EditText
+            android:id="@+id/editTextENG"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:background="@null"
+            android:layout_weight="2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearTR"
+        android:layout_below="@+id/linearENG"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ecb7b7"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:text="Türkçe:"/>
+
+        <EditText
+            android:id="@+id/editTextTR"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:background="@null"
+            android:layout_weight="2"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearENGES"
+        android:layout_below="@+id/linearTR"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ecb7b7"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:text="Eş Anlam:"/>
+
+        <EditText
+            android:id="@+id/editTextENGES"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:background="@null"
+            android:layout_weight="2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearENGZIT"
+        android:layout_below="@+id/linearENGES"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ecb7b7"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:text="Zıt Anlam:"/>
+
+        <EditText
+            android:id="@+id/editTextENGZIT"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:background="@null"
+            android:layout_weight="2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearENGCumle"
+        android:layout_below="@+id/linearENGZIT"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ecb7b7"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:text="İngilizce Cümle:"/>
+
+        <EditText
+            android:id="@+id/editTextENGCumle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:background="@null"
+            android:layout_weight="2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearTRCumle"
+        android:layout_below="@+id/linearENGCumle"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ecb7b7"
+        android:weightSum="10">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="#000"
+            android:gravity="center_vertical"
+            android:text="Türkçe Cümle:"/>
+
+        <EditText
+            android:id="@+id/editTextTRCumle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:background="@null"
+            android:layout_weight="2"/>
+    </LinearLayout>
+
+    <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+        android:id="@+id/seviye"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:layout_below="@+id/linearTRCumle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"></com.toptoche.searchablespinnerlibrary.SearchableSpinner>
+
+    <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+        android:id="@+id/grup"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:layout_below="@+id/seviye"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"></com.toptoche.searchablespinnerlibrary.SearchableSpinner>
+
+    <Button
+        android:id="@+id/ekle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="EKLE"
+        android:textColor="#000"
+        android:background="#b7b7b7"
+        android:layout_below="@+id/grup"
+        android:layout_marginTop="5dp"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="204dp"/>
+</RelativeLayout>

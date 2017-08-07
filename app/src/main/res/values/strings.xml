@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">YDS</string>
+
+    <string name="kelimegruplari">Kelime Grupları</string>
+    <string name="kelimelistesi">Kelime Listesi</string>
+    <string name="alistirmalar">Alıştırmalar</string>
+    <string name="kelimeekle">Kelime Ekle</string>
+    <string name="favorilerim">Favorilerim</string>
+    <string name="hakkimizda">Hakkımızda</string>
+
+    <string name="noun">Noun</string>
+    <string name="adjectives">Adjectives</string>
+    <string name="verbs">Verbs</string>
+    <string name="adverb">Adverb</string>
+    <string name="phrasalverbs">Phrasal Verbs</string>
+    <string name="preposition">Preposition</string>
+
+    <string-array name="seviye">
+        <item>Kolay</item>
+        <item>Orta</item>
+        <item>Zor</item>
+    </string-array>
+
+    <string-array name="grup">
+        <item>Noun</item>
+        <item>Adjectives</item>
+        <item>Verbs</item>
+        <item>Adverb</item>
+        <item>Phrasal Verbs</item>
+        <item>Preposition</item>
+    </string-array>
+
+</resources>

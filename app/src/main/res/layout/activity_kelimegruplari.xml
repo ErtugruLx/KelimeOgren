@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:weightSum="3"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/butonNoun"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="#cd88af"
+            android:text="Noun"
+            android:textColor="#ffffff"
+            app:srcCompat="@mipmap/ic_launcher_round"
+            tools:layout_editor_absoluteX="107dp"
+            tools:layout_editor_absoluteY="129dp" />
+
+        <Button
+            android:id="@+id/butonAdjectives"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="#2d882d"
+            android:text="@string/adjectives"
+            android:textColor="#ffffff"
+            app:srcCompat="@mipmap/ic_launcher_round"
+            tools:layout_editor_absoluteX="208dp"
+            tools:layout_editor_absoluteY="129dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/butonVerbs"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="#882d61"
+            android:text="@string/verbs"
+            android:textColor="#ffffff"
+            app:srcCompat="@mipmap/ic_launcher_round"
+            tools:layout_editor_absoluteX="108dp"
+            tools:layout_editor_absoluteY="218dp" />
+
+        <Button
+            android:id="@+id/butonAdverb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="#7f9b35"
+            android:text="@string/adverb"
+            android:textColor="#ffffff"
+            app:srcCompat="@mipmap/ic_launcher_round"
+            tools:layout_editor_absoluteX="208dp"
+            tools:layout_editor_absoluteY="221dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/butonPhrasalVerbs"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="#661141"
+            android:text="@string/phrasalverbs"
+            android:textColor="#ffffff"
+            app:srcCompat="@mipmap/ic_launcher_round"
+            tools:layout_editor_absoluteX="108dp"
+            tools:layout_editor_absoluteY="306dp" />
+
+        <Button
+            android:id="@+id/butonPreposition"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="#a5c663"
+            android:text="@string/preposition"
+            android:textColor="#ffffff"
+            app:srcCompat="@mipmap/ic_launcher_round"
+            tools:layout_editor_absoluteX="208dp"
+            tools:layout_editor_absoluteY="306dp" />
+    </LinearLayout>
+
+</LinearLayout>
